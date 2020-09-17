@@ -11,7 +11,7 @@ sudo yum -y install automake libtool flex bison pkgconfig gcc-c++ boost-devel li
 #### 2. thrift & fb303 install
 ```
 cd /tmp
-wget https://github.com/mozily/scribe_to_redis.git
+git clone https://github.com/mozily/scribe_to_redis.git
 
 tar -xzvf /tmp/scribe_to_redis/thrift/thrift-0.9.0.tar.gz
 cd /tmp/scribe_to_redis/thrift-0.9.0
